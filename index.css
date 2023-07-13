@@ -1,0 +1,157 @@
+img, .nom{
+
+    display: inline;
+}
+body{
+
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: serif;
+    overflow-x: hidden;
+    
+}
+
+.titre{
+
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    width: 100%;
+    margin: 0 0;
+}
+
+img{
+
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto ;
+}
+.presentation{
+
+    margin: auto 0;
+    
+}
+
+.presentation p{
+
+    width: 200px;
+    margin: 0 auto ;
+    text-align: center;
+
+}
+h1,h2{
+    text-align: center;
+    text-shadow: inset 1px 1px 3px 1px white;
+}
+.niveau, .niveau2{
+
+    width: 600px;
+    display: inline-block;
+    padding: 40px;
+    background: rgb(240, 242, 245);
+    border-radius: 10px;
+    
+}
+
+.cursus strong{
+    text-align: center;
+    margin: 0 auto;
+}
+.presentation{
+
+    width: 500px;
+    background: rgb(250, 248, 248);
+    padding: 15px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow:  1px 2px 22px 1px rgb(53, 53, 53);
+}
+
+
+a img{
+
+    width: 50px;
+    height: 50px;
+}
+li{
+    display: flex;
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    margin: 5px 120px;
+}
+
+.accueil{
+
+     background-image: linear-gradient( rgba(8, 8, 8, 0.3), rgba(8, 8, 8, 0.3)), url('./back.jpg'); 
+     /* background: url('./back.jpg');  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+   
+    
+}
+.cursus{
+    position: relative;
+    margin-top: 750px;
+    padding: 10px auto;
+}
+.liens{
+
+    background: rgb(87, 30, 139);
+    
+}
+
+img{
+    background: white;
+}
+h1 span{
+    color: rgb(41, 9, 70);
+}
+.niveau{
+
+    margin-left: 150px;
+}
+progress{
+
+    height: 15px;
+    width: 500px;
+}
+.competence, .competence2{
+
+    display: inline-block;
+    width: 600px;
+    padding: 50px;
+}
+.competence{
+    margin-left: 170px;
+}
+.savoir-faire{
+
+    padding: 30px;
+    background-image: linear-gradient( rgba(8, 8, 8, 0.3), rgba(8, 8, 8, 0.3)), url('./back.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 4px 5px 6px;
+}
+.experience p{
+
+display: inline;
+margin-left: 20px;
+margin-bottom: 50px;
+}
+.experience{
+    padding: 50px;
+}
+.experience strong{
+
+    color: rgb(52, 6, 95);
+}
